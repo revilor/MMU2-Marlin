@@ -18,10 +18,10 @@ The following describes a startup sequence without issues
 ## Startup sequence 
 
  * Power on or reset
- * Marlin bootscreen, MMU2 will do it's init sequence: different LEDs lighting up, idler drum will move/home
+ * Marlin bootscreen, MMU2 will do its init sequence: different LEDs lighting up, idler drum will move/home
  * > _Marlin bugfix-2.0.x_ (or whatever version you are using)
  * > _MMU <= reset_
- * MMU2 will do it's init sequence again
+ * MMU2 will do its init sequence again
  * > _MMU => 'start'_
  * > _MMU <= 'S1'_
  * > _MMU => 103_ (value depends on the MMU2 firmware version)
