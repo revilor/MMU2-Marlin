@@ -33,7 +33,7 @@ The following describes a startup sequence without issues
  * > _MMU => 0
  * > _MMU - ENABLED
  
-  ## First tool change
+## First tool change
  
  When a tool change command like T0 is sent the first time, the following should happen
  
